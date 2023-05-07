@@ -1,0 +1,15 @@
+CREATE DATABASE tabella
+DEFAULT CHARACTER SET utf8
+COLLATE utf8_hungarian_ci;
+
+CREATE TABLE csapat(
+nev varchar(100),
+lejatszott int,
+lottgol int,
+kapottgol int,
+pontok int,
+PRIMARY KEY(nev));
+
+//a program működéséhez szukséges felhasználó az adatbázishoz
+//neve: tabellakezelo
+//jelszava: asd123
